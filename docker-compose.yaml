@@ -1,0 +1,17 @@
+version: "3.6"
+
+services:
+    prisma-playground-dev:
+        container_name: prisma-playground-dev
+        image: node:12.14.0-alpine
+        working_dir: "/app"
+        volumes:
+            - "./:/app"
+        ports:
+            - 5466:5466
+        command:
+            - /bin/sh
+            - -c
+            - |
+                npm i
+                npx nodemon index

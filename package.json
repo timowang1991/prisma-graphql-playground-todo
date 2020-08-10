@@ -1,0 +1,24 @@
+{
+  "name": "prisma-graphql-playground-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "graphql-playground-middleware-express": "^1.7.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
